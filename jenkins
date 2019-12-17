@@ -10,5 +10,4 @@ node('myslave1') {
     sh label: '', script: '''cd ~
     cd /home/osboxes/shell
     ./file.sh
-    '''
 }
