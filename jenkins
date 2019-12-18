@@ -1,4 +1,4 @@
-node('myslave1') {
+node('myslave106') {
     // some block
     properties([
        parameters([
@@ -10,4 +10,5 @@ node('myslave1') {
     sh label: '', script: '''cd ~
     cd /home/osboxes/shell
     ./file.sh
+    '''
 }
